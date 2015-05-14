@@ -1,0 +1,10 @@
+1. Course Policies
+(a) Acceptable behaviors include: looking up information relevant to the course online, talking to my classmates about the problems, and asking the course staff for help.
+(b) Emacs, Eclipse, VIM, Microsoft Visual Studio, and Sublime are recommended ways of writing code.
+(c) Each student can use up to 2 of their 4 grace days on a single assignment.
+(d) If using a grace day(s) you should commit your code via Github and then fill in a Late Submission Google Form.
+2. Git
+(a) Terminal (Mac or Linux) is the only Git user interface accepted and supported in the course.
+(b) git add hw1q2b.cpp
+	git log -p -3
+(c) Git will commit all three files, making them part of the repository. Any changes will still have to be pushed to the master, though.
