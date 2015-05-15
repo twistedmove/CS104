@@ -1,5 +1,3 @@
-The answers for problems 1 and 2 are in the file hw1.txt.
-
 Perm.cpp is the corrected code for problem 4, dealing with permutations of a string recursively.
 Create the executable with: g++ -g -Wall perm.cpp -o perm
 Run with: ./perm <no repeating characters string to permute>
