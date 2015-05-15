@@ -3,7 +3,7 @@ Makefile options:
 	make tests: creates object files alistint.o and llistdbl.o and executables aListTest, inOutLlistTest, addToEmptyTest in the bin directory
 	make clean: removes bin directory
 
-The answers for problem 1 and 6 are in the file hw2.txt.
+The answers for problem 6 are in the file hw2.txt.
 
 For problem 3 the llistdbl.o object file will be created by calling either "make" or "make tests". In the directory tests, testAddToEmptyList.cpp is the provided test file and inOutLlistDblTest.cpp is the test file I created. They can be run with "./bin/addToEmptyTest" and "./bin/inOutLlistTest", respectively.
 

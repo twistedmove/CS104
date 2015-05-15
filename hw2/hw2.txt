@@ -1,11 +1,3 @@
-1. More git questions
-(a) README.md is tracked and unmodified.
-(b) README.md has been edited and is now marked as modified. fun_problem.txt is untracked.
-(c) The modified README.md has been staged. As a new file fun_problem.txt has been immediately staged.
-(d) Both README.md and fun_problem.txt are tracked files that have been modified.
-(e) Once again the modified README.md has been staged. fun_problem.txt is tracked but unmodified. The contents of fun_problem.txt are entirely blank because the checkout command deleted all the changes in the working directory since the last commit(i.e. the "So far, so good").
-(f) README.md is marked as modified as both staged and unstaged. This happened because a file is staged exactly as-is: any further changes have to be staged again.
-
 6. Stack Operation Runtime Analysis
 The function bool StackDbl::empty() const calls the function bool LListDbl::empty() const, which compares the variable size_ to 0, for a total of two operations. This is equivalent to theta(1) or constant runtime.
 The function void StackDbl::push(const double& value) calls the function void LListDbl::insert(int pos, const double& val) with pos = 0. Insert makes two comparisons to see that pos is valid, and then a third to see that it equals 0. Actually adding the item takes seven steps (plus one comparison to determine if the list was empty). Note that this is the same number as adding to the tail (without the comparison). In total there are 12 operations, equivalent to theta(1) or constant runtime.
