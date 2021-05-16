@@ -1,2 +1,4 @@
 # CS104
-Homework assignments completed as part of CSCI 170 Data Structures and Object Oriented Design at USC
+
+Posting this work publicly is violation of academic integrity at USC. The assignments created by USC instructors is implicitly under their copyright. It should be taken down. 
+
